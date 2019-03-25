@@ -1,0 +1,224 @@
+*{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration: none;}
+/*.header{width:100%;height:auto;}*/
+@media screen and (min-width:1401px){
+	.main:after{width:100%;height:auto;padding:65px 0 0 0;}
+	.main{zoom:1;}
+	.navigation{width:70%;height:10px;line-height:35px;margin:65px auto;}
+	.navigation>li{width:133px;height:30px;background:white;float:left;margin-left:5%;text-align:center;border-radius:30px;cursor:pointer;}
+	.navigation>li>a{font-size:20px;color:black;text-decoration:none;}
+	.navigation>li:hover{background:#4D0015;}
+	.navigation>li:hover>a{color:white;}
+
+	.redWineClass{width:90%;height:1150px;margin:0 auto;display:block;}
+	.redWineClass>ul{margin:0 auto;}
+	.redWineClass>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineClass>ul>li>img{width:100%;height:220px;}
+	.redWineClass>ul>li>span{color:white;}
+	.redWineClass>ul>li>a{color:white;}
+
+	.redWineTasting{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTasting>ul{margin:0 auto;}
+	.redWineTasting>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTasting>ul>li>img{width:100%;height:220px;}
+	.redWineTasting>ul>li>span{color:white;}
+	.redWineTasting>ul>li>a{color:white;}
+
+	.redWinefood{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWinefood>ul{margin:0 auto;}
+	.redWinefood>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWinefood>ul>li>img{width:100%;height:220px;}
+	.redWinefood>ul>li>span{color:white;}
+	.redWinefood>ul>li>a{color:white;}
+
+	.redWineProducing{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineProducing>ul{margin:0 auto;}
+	.redWineProducing>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineProducing>ul>li>img{width:100%;height:220px;}
+	.redWineProducing>ul>li>span{color:white;}
+	.redWineProducing>ul>li>a{color:white;}
+
+	.redWineTourism{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTourism>ul{margin:0 auto;}
+	.redWineTourism>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTourism>ul>li>img{width:100%;height:220px;}
+	.redWineTourism>ul>li>span{color:white;}
+	.redWineTourism>ul>li>a{color:white;}
+}
+@media screen and (min-width:1201px) and (max-width:1366px){
+	.main:after{width:100%;height:auto;padding:65px 0 0 0;}
+	.main{zoom:1;}
+	.navigation{width:70%;height:10px;line-height:35px;margin:65px auto;}
+	.navigation>li{width:133px;height:30px;background:white;float:left;margin-left:5%;text-align:center;border-radius:30px;cursor:pointer;}
+	.navigation>li>a{font-size:20px;color:black;text-decoration:none;}
+	.navigation>li:hover{background:#4D0015;}
+	.navigation>li:hover>a{color:white;}
+
+	.redWineClass{width:90%;height:1150px;margin:0 auto;display:block;}
+	.redWineClass>ul{margin:0 auto;}
+	.redWineClass>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineClass>ul>li>img{width:100%;height:220px;}
+	.redWineClass>ul>li>span{color:white;}
+	.redWineClass>ul>li>a{color:white;}
+
+	.redWineTasting{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTasting>ul{margin:0 auto;}
+	.redWineTasting>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTasting>ul>li>img{width:100%;height:220px;}
+	.redWineTasting>ul>li>span{color:white;}
+	.redWineTasting>ul>li>a{color:white;}
+
+	.redWinefood{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWinefood>ul{margin:0 auto;}
+	.redWinefood>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWinefood>ul>li>img{width:100%;height:220px;}
+	.redWinefood>ul>li>span{color:white;}
+	.redWinefood>ul>li>a{color:white;}
+
+	.redWineProducing{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineProducing>ul{margin:0 auto;}
+	.redWineProducing>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineProducing>ul>li>img{width:100%;height:220px;}
+	.redWineProducing>ul>li>span{color:white;}
+	.redWineProducing>ul>li>a{color:white;}
+
+	.redWineTourism{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTourism>ul{margin:0 auto;}
+	.redWineTourism>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTourism>ul>li>img{width:100%;height:220px;}
+	.redWineTourism>ul>li>span{color:white;}
+	.redWineTourism>ul>li>a{color:white;}
+}
+@media screen and (min-width:1040px) and (max-width:1200px){
+	.main:after{width:100%;height:auto;padding:65px 0 0 0;}
+	.main{zoom:1;}
+	.navigation{width:70%;height:10px;line-height:35px;margin:65px auto;}
+	.navigation>li{width:120px;height:30px;background:white;float:left;margin-left:5%;text-align:center;border-radius:30px;cursor:pointer;}
+	.navigation>li>a{font-size:20px;color:black;text-decoration:none;}
+	.navigation>li:hover{background:#4D0015;}
+	.navigation>li:hover>a{color:white;}
+
+	.redWineClass{width:90%;height:1150px;margin:0 auto;display:block;}
+	.redWineClass>ul{margin:0 auto;}
+	.redWineClass>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineClass>ul>li>img{width:100%;height:220px;}
+	.redWineClass>ul>li>span{color:white;}
+	.redWineClass>ul>li>a{color:white;}
+
+	.redWineTasting{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTasting>ul{margin:0 auto;}
+	.redWineTasting>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTasting>ul>li>img{width:100%;height:220px;}
+	.redWineTasting>ul>li>span{color:white;}
+	.redWineTasting>ul>li>a{color:white;}
+
+	.redWinefood{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWinefood>ul{margin:0 auto;}
+	.redWinefood>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWinefood>ul>li>img{width:100%;height:220px;}
+	.redWinefood>ul>li>span{color:white;}
+	.redWinefood>ul>li>a{color:white;}
+
+	.redWineProducing{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineProducing>ul{margin:0 auto;}
+	.redWineProducing>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineProducing>ul>li>img{width:100%;height:220px;}
+	.redWineProducing>ul>li>span{color:white;}
+	.redWineProducing>ul>li>a{color:white;}
+
+	.redWineTourism{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTourism>ul{margin:0 auto;}
+	.redWineTourism>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTourism>ul>li>img{width:100%;height:220px;}
+	.redWineTourism>ul>li>span{color:white;}
+	.redWineTourism>ul>li>a{color:white;}
+}
+@media screen and (min-width:700px) and (max-width:1039px){
+	.main:after{width:100%;height:auto;padding:65px 0 0 0;}
+	.main{zoom:1;}
+	.navigation{width:70%;height:10px;line-height:35px;margin:65px auto;}
+	.navigation>li{width:120px;height:30px;background:white;float:left;margin-left:2%;text-align:center;border-radius:30px;cursor:pointer;}
+	.navigation>li>a{font-size:20px;color:black;text-decoration:none;}
+	.navigation>li:hover{background:#4D0015;}
+	.navigation>li:hover>a{color:white;}
+
+	.redWineClass{width:90%;height:1150px;margin:0 auto;display:block;}
+	.redWineClass>ul{margin:0 auto;}
+	.redWineClass>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineClass>ul>li>img{width:100%;height:200px;}
+	.redWineClass>ul>li>span{color:white;}
+	.redWineClass>ul>li>a{color:white;}
+
+	.redWineTasting{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTasting>ul{margin:0 auto;}
+	.redWineTasting>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTasting>ul>li>img{width:100%;height:200px;}
+	.redWineTasting>ul>li>span{color:white;}
+	.redWineTasting>ul>li>a{color:white;}
+
+	.redWinefood{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWinefood>ul{margin:0 auto;}
+	.redWinefood>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWinefood>ul>li>img{width:100%;height:200px;}
+	.redWinefood>ul>li>span{color:white;}
+	.redWinefood>ul>li>a{color:white;}
+
+	.redWineProducing{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineProducing>ul{margin:0 auto;}
+	.redWineProducing>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineProducing>ul>li>img{width:100%;height:200px;}
+	.redWineProducing>ul>li>span{color:white;}
+	.redWineProducing>ul>li>a{color:white;}
+
+	.redWineTourism{width:90%;height:1150px;margin:0 auto;display:none;}
+	.redWineTourism>ul{margin:0 auto;}
+	.redWineTourism>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:40px;}
+	.redWineTourism>ul>li>img{width:100%;height:200px;}
+	.redWineTourism>ul>li>span{color:white;}
+	.redWineTourism>ul>li>a{color:white;}
+}
+@media screen and (max-width:699px){
+	.main:after{width:100%;height:auto;padding:65px 0 0 0;}
+	.main{zoom:1;}
+	.navigation{width:70%;height:10px;line-height:24px;margin:65px auto;}
+	.navigation>li{width:80px;height:20px;background:white;float:left;margin-left:2%;text-align:center;border-radius:30px;cursor:pointer;}
+	.navigation>li>a{font-size:17px;color:black;text-decoration:none;}
+	.navigation>li:hover{background:#4D0015;}
+	.navigation>li:hover>a{color:white;}
+
+	.redWineClass{width:90%;height:950px;margin:0 auto;display:block;}
+	.redWineClass>ul{margin:0 auto;}
+	.redWineClass>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:-20px;font-size:12px;}
+	.redWineClass>ul>li>img{width:100%;height:130px;}
+	.redWineClass>ul>li>span{color:white;}
+	.redWineClass>ul>li>a{color:white;}
+
+	.redWineTasting{width:90%;height:950px;margin:0 auto;display:none;}
+	.redWineTasting>ul{margin:0 auto;}
+	.redWineTasting>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:-20px;font-size:12px;}
+	.redWineTasting>ul>li>img{width:100%;height:130px;}
+	.redWineTasting>ul>li>span{color:white;}
+	.redWineTasting>ul>li>a{color:white;}
+
+	.redWinefood{width:90%;height:950px;margin:0 auto;display:none;}
+	.redWinefood>ul{margin:0 auto;}
+	.redWinefood>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:-20px;font-size:12px;}
+	.redWinefood>ul>li>img{width:100%;height:130px;}
+	.redWinefood>ul>li>span{color:white;}
+	.redWinefood>ul>li>a{color:white;}
+
+	.redWineProducing{width:90%;height:950px;margin:0 auto;display:none;}
+	.redWineProducing>ul{margin:0 auto;}
+	.redWineProducing>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:-20px;font-size:12px;}
+	.redWineProducing>ul>li>img{width:100%;height:130px;}
+	.redWineProducing>ul>li>span{color:white;}
+	.redWineProducing>ul>li>a{color:white;}
+
+	.redWineTourism{width:90%;height:950px;margin:0 auto;display:none;}
+	.redWineTourism>ul{margin:0 auto;}
+	.redWineTourism>ul>li{width:30%;height:340px;margin-left:3%;float:left;margin-top:-20px;font-size:12px;}
+	.redWineTourism>ul>li>img{width:100%;height:130px;}
+	.redWineTourism>ul>li>span{color:white;}
+	.redWineTourism>ul>li>a{color:white;}
+}

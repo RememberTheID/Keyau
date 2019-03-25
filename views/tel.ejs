@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/3232-title.png">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/tel.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>联系我们</title>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<header> 
+			<!-- 导航栏 -->
+			<div class="logo"><img src="images/logo.png" alt="" onclick="location.href='/index'"></div>
+		<nav>
+			<ul>
+				<li onclick="location.href='/index'">
+					<p>Keyau首页</p>
+					<p>Keyau首页</p>
+				</li>
+				<li onclick="location.href='/productCenter'">
+					<p>产品中心</p>
+					<p>产品中心</p>
+				</li>
+				<li onclick="location.href='/wineCulture'">
+					<p>红酒文化</p>
+					<p>红酒文化</p>
+				</li>
+				<li onclick="location.href='/newCenter'">
+					<p>新闻中心</p>
+					<p>新闻中心</p>
+				</li>
+				<li onclick="location.href='/cellar'">
+					<p>酒窖展示</p>
+					<p>酒窖展示</p>
+				</li>
+				<li onclick="location.href='/tel'">
+					<p>联系我们</p>
+					<p>联系我们</p>
+				</li>
+				<li onclick="location.href='/joinUs'">
+					<p>招商加盟</p>
+					<p>招商加盟</p>
+				</li>
+				<li onclick="location.href='/aboutUs'">
+					<p>关于我们</p>
+					<p>关于我们</p>
+				</li>
+			</ul>
+		</nav>
+		</header>
+		<div class="phone">
+			<ul class="phonee">
+				<li onclick="location.href='/index'">Keyau首页</li>
+				<li onclick="location.href='/productCenter'">产品中心</li>
+				<li onclick="location.href='/wineCulture'">红酒文化</li>
+				<li onclick="location.href='/newCenter'">新闻中心</li>
+				<li onclick="location.href='/cellar'">酒窖展示</li>
+				<li onclick="location.href='/tel'">联系我们</li>
+				<li onclick="location.href='/joinUs'">招商加盟</li>
+				<li onclick="location.href='/aboutUs'">关于我们</li>
+			</ul>
+			<span class="menu glyphicon glyphicon-menu-hamburger"></span>
+		</div>
+		<!-- 主体 -->
+		<main>
+			<h2>品味生活 享受人生</h2>
+			<p class="title">服务范围目前遍布全国，在全国大多数城市拥有销售网络。公司产品遍布全国众多国际型大卖场，大型高级商场、超市，星级酒店，夜总会，中西餐厅，酒吧等。洋酒批发，洋酒招商，红酒批发，红酒团购，红酒招商，葡萄酒批发，进口红酒，夜场洋酒，进口啤酒。</p>
+			<div id="container"></div>
+			<div class='input-card'>
+	    <div class="input-item">
+	        <input type="checkbox" onclick="toggleScale(this)"/>比例尺
+	    </div>
+	    <div class="input-item">
+	        <input type="checkbox" id="toolbar" onclick="toggleToolBar(this)"/>工具条
+	   		</div>
+	    
+	   		<div class="input-item">
+	        <input type="checkbox" id="toolbarDirection" disabled onclick="toggleToolBarDirection(this)"/>工具条方向盘
+	    	</div>
+	    
+	    	<div class="input-item">
+	        <input type="checkbox" id="toolbarRuler" disabled onclick="toggleToolBarRuler(this)"/>工具条标尺
+	    	</div>
+		</div>
+		<ul class="new">
+			<li class="left">
+				<strong>
+					在线咨询
+				</strong>
+				<span>
+					/ ONLLINE CONSULTING
+				</span>
+				<P class="content">感谢您对某某酒业的信任，如果您对于我们的产品非常感兴趣，请填写下面的表单，我们会第一时间与您联系。</P>
+				<form action="JavaScript:void(0)">
+					姓名: <br>
+					<input type="text" id="name" name="user"><br>
+					<p class="user" style="color:red;display:none;">姓名不能为空</p>
+					电话: <br>
+					<input type="text" id="global" name="global"><br>
+					<p class="global" style="color:red;display:none;">电话不能为空</p>
+					备注: <br>
+					<textarea name="depict" id="depict" cols="30" rows="10"></textarea><br>
+					<button type="submit" value="Submit">提交</button>
+				</form>
+			</li>
+			<li class="right">
+				<strong>
+					联系我们
+				</strong>
+				<span>
+					/ CONTACT US
+				</span>
+				<p class="content">欢迎联系某某酒业，我们期待与您详细沟通，您可以通过以下方式联系我们 ，或给我们留言。</p>
+				<div class="wp_content">
+					<p>服务热线：400-0000-000</p>
+					<p>公司地址：中国上海市某某区某某路1000号某某大厦15层</p>
+					<p>公司传真：+86-21-888888X8</p>
+					<p>企业邮箱：Service@yourdomain.com</p>
+					<p>地区邮编：100000</p>
+				</div>
+				<img src="images/qr_layer06F7FECAE3BDE8D51C81BB732BF8F9E2.png" alt="">
+			</li>
+		</ul>
+		</main>
+		<!-- 尾部 -->
+		<footer class="bottom">
+			<div class="left"><img src="images/logo1.png" alt=""></div>
+			<div class="right"><ul>
+				<li><img src="images/tao.png" alt="">淘宝商城</li>
+				<li><img src="images/weibo.png" alt="">公司微博</li>
+				<li><img src="images/wechat.png" alt="">微信</li>
+				<li><img src="images/email.png" alt="">邮箱</li>
+			</ul>
+		<span>东莞市蓝菲酒业有限公司</span><address>地址：东莞市南城区财富广场A座13A04室</address>
+		<p>
+			<span>电话：0769-00000000</span>
+			<span>传真：0769-00000000</span>
+			<span>全国免费招商热线：400-0000-199</span>
+		</p>
+
+		</div>
+		<p>东莞市Keyqu酒业有限公司    版权所有  Copyright 2010-2018 666.com All Rights Reserved 投资有风险,选择需谨慎 </p>
+		</footer>
+		<div class="top_up"><img src="images/top.png" alt=""></div>
+	</div>
+	<script src="javascripts/jquery-3.3.1.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
+	<script src="javascripts/tel.js"></script>
+	<script src="https://webapi.amap.com/maps?v=1.4.13&key=cfe74f8dbe63715a2728e42063a629de&&plugin=AMap.Scale,AMap.OverView,AMap.ToolBar"></script>
+</body>
+</html>

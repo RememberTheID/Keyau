@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="images/3232-title.png">
+	<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" href="stylesheets/global.css">
+	<link rel="stylesheet" href="stylesheets/newCenter.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>新闻中心</title>
+</head>
+<body>
+	<div class="wrap">
+		<!-- 头部 -->
+		<header>
+			<!-- 导航栏 -->
+			<div class="logo"><img src="images/logo.png" alt="" onclick="location.href='/index'"></div>
+		<nav>
+			<ul>
+				<li onclick="location.href='/index'">
+					<p>Keyau首页</p>
+					<p>Keyau首页</p>
+				</li>
+				<li onclick="location.href='/productCenter'">
+					<p>产品中心</p>
+					<p>产品中心</p>
+				</li>
+				<li onclick="location.href='/wineCulture'">
+					<p>红酒文化</p>
+					<p>红酒文化</p>
+				</li>
+				<li onclick="location.href='/newCenter'">
+					<p>新闻中心</p>
+					<p>新闻中心</p>
+				</li>
+				<li onclick="location.href='/cellar'">
+					<p>酒窖展示</p>
+					<p>酒窖展示</p>
+				</li>
+				<li onclick="location.href='/tel'">
+					<p>联系我们</p>
+					<p>联系我们</p>
+				</li>
+				<li onclick="location.href='/joinUs'">
+					<p>招商加盟</p>
+					<p>招商加盟</p>
+				</li>
+				<li onclick="location.href='/aboutUs'">
+					<p>关于我们</p>
+					<p>关于我们</p>
+				</li>
+			</ul>
+		</nav>
+		</header>
+		<div class="phone">
+			<ul class="phonee">
+				<li onclick="location.href='/index'">Keyau首页</li>
+				<li onclick="location.href='/productCenter'">产品中心</li>
+				<li onclick="location.href='/wineCulture'">红酒文化</li>
+				<li onclick="location.href='/newCenter'">新闻中心</li>
+				<li onclick="location.href='/cellar'">酒窖展示</li>
+				<li onclick="location.href='/tel'">联系我们</li>
+				<li onclick="location.href='/joinUs'">招商加盟</li>
+				<li onclick="location.href='/aboutUs'">关于我们</li>
+			</ul>
+			<span class="menu glyphicon glyphicon-menu-hamburger"></span>
+		</div>
+		<!-- 主体 -->
+		<main>
+
+			<!-- 导航栏 -->
+			<div class="nav">
+				<ul class="navLayer">
+					<!-- tab导航 -->
+					<li><a href="javascript:void(0)">行业新闻</a></li>
+					<li><a href="javascript:void(0)">媒体报道</a></li>
+					<li><a href="javascript:void(0)">店内新闻</a></li>
+					<li><a href="javascript:void(0)">饮酒七戒</a></li>
+				</ul>
+			</div>
+
+			<!-- 内容列表 -->
+			<div class="articleList">
+			<!-- 内容首页 -->
+				<ul class="active">
+					<li class="boder_img">
+						<div class="main-header">
+							<a href="#"><img src="images/long_wine1.png" alt=""></a>
+							<div>
+								<a class="article">红酒招商加盟品牌怎么选?</a>
+								<p >对于当下的很多消费者而言，随着消费水平的逐渐提高，消费者的消费观念也日渐转变，对于健康饮品是愈加喜欢的。而红酒作为健康饮品也深受消费者的青睐，其需求量也是稳步上涨的。由此做红酒代理生意也会有很好的发展前景。那么面对诸多的红酒招商加盟品牌，选择哪家加盟好呢?<a href="#">【详细】</a></p>
+								<p class="text-title">2019-03-12</p>
+							</div>
+						</div>
+					</li>
+					<div class="pageCount">
+						共<span><%=count%></span>条记录
+						共<span><%=Math.ceil(count/num)%></span>页
+					</div>
+				</ul>
+
+				<!--行内新闻-->
+				<ul>
+					<li class="boder_img">
+						<div class="main-header">
+							<a href="#"><img src="images/long_wine2.png" alt=""></a>
+							<div>
+								<a class="article">全国政协委员崔波建议取消葡萄酒10%的消费税</a>
+								<p >昨日，全国政协委员、宁夏回族自治区政协主席崔波对《经济参考报》记者表示：建议有关部门按照世界各主要葡萄酒生产国的做法，将我国葡萄酒由工业产品列入农产品范畴，逐步取消10%的消费税，进一步降低增值税税率，以促进我国葡萄酒产业快速健康发展。<a href="#">【详细】</a></p>
+								<p class="text-title">2019-03-12</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">剑南春预热年内第二波涨价潮</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒品牌不能缺了想象力</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">全球葡萄减产 高端红酒悄涨价了</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒涨价 实为促销</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">我国红酒产品质量整体水平较高</a>
+						<p>2015-01-18</p>
+					</li>
+					<div class="pageCount">
+						共<span>5</span>条记录<span>1</span>
+					</div>
+				</ul>
+
+				<!-- 媒体报道 -->
+				<ul>
+					<li class="boder_img">
+						<div class="main-header">
+							<a href="#"><img src="images/long_wine3.png" alt=""></a>
+							<div>
+								<a class="article">张艳莉 寻找葡萄酒中1%的差异</a>
+								<p >最初想把长和翡翠酒庄庄主张艳莉女士约在北京采访，可是她一再强烈建议，“你们一定要到我的酒庄来”，当我们从银川出发，坐车绕过了宁夏水库，看着方正、宏伟的酒庄建筑由远及近的时候，明白了她一定要让我们走进酒庄的原因。<a href="#">【详细】</a></p>
+								<p class="text-title">2018-12-17</p>
+							</div>
+						</div>
+					</li>	
+					<li>
+						<a href="#">漫谈红酒的品牌文化</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">中国红酒业发展阶段论</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">质疑“文化”酒</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">核心价值：天地人和</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒行业人文关怀第一品牌</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒品牌不能缺了想象力</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">我国红酒产品质量整体水平较高</a>
+						<p>2015-01-18</p>
+					</li>
+					<div class="pageCount">
+						共<span>7</span>条记录<span>1</span>
+					</div>
+				</ul>
+
+				<!-- 店内新闻 -->
+				<ul>
+					<li class="boder_img">
+						<div class="main-header">
+							<a href="#"><img src="images/long_wine4.png" alt=""></a>
+							<div>
+								<a class="article">波尔多葡萄酒与淇奥的故事</a>
+								<p >波尔多(Bordeaux)位于法国的西南部，不仅是罗伯特•帕克(Robert Paker)最青睐的葡萄酒产区之一，它还是“世界葡萄酒的首都”。对大多数喜爱葡萄酒的人来说，波尔多之于葡萄酒，就像麦加之于伊斯兰教。<a href="#">【详细】</a></p>
+								<p class="text-title">2019-03-01</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">又到了一年一度的葡萄采摘季。</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">酒闻：“川派清香” 创新还是“豪赌”？</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒 沈阳人好喝不爱炒</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">四川固态法小曲白酒标准启动</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">劳兰·皮尔 酒庄发展需要特色</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">2015山东秋季红酒会圆满落幕</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">**葡萄酒身价倍增 堪称“液体黄金”</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">全球葡萄减产 高端红酒悄涨价了</a>
+						<p>2015-01-18</p>
+					</li>
+					<div class="pageCount">
+						共<span>8</span>条记录<span>1</span>
+					</div>
+				</ul>
+
+				<!-- 饮酒七戒 -->
+				<ul>
+					<li class="boder_img">
+						<div class="main-header">
+							<a href="#"><img src="images/long_wine5.png" alt=""></a>
+							<div>
+								<a class="article">健康喝啤酒的方法及注意事项</a>
+								<p >夏天到来，不只是冰镇饮料受欢迎，冰镇啤酒也非常的受欢迎。虽然啤酒含有多种营养，在夏天喝确实能够起到消暑降温的作用，但是啤酒毕竟还是酒精类饮品，喝多了对身体并不好。那么要怎么喝才能发挥出啤酒的好处而不伤害身体呢?<a href="#">【详细】</a></p>
+								<p class="text-title">2015-09-01</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<a href="#">喝酒的注意事项</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">饮酒后有哪些注意事项</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">饮酒时应该注意这几点</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">饮酒前应注意了</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">红酒 沈阳人好喝不爱炒</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">劳兰·皮尔 酒庄发展需要特色</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">酒闻：“川派清香” 创新还是“豪赌”？</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">我国红酒产品质量整体水平较高</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">中国白酒业发展阶段论</a>
+						<p>2015-01-18</p>
+					</li>
+					<li>
+						<a href="#">质疑“文化”酒</a>
+						<p>2015-01-18</p>
+					</li>
+					<div class="pageCount">共<span>10</span>条记录<span>1</span></div>
+				</ul>
+			</div>
+		</main>
+		<!-- 尾部 -->
+		<footer class="bottom">
+			<div class="left"><img src="images/logo1.png" alt=""></div>
+			<div class="right">
+				<ul>
+					<li><img src="images/tao.png" alt="">淘宝商城</li>
+					<li><img src="images/weibo.png" alt="">公司微博</li>
+					<li><img src="images/wechat.png" alt="">微信</li>
+					<li><img src="images/email.png" alt="">邮箱</li>
+				</ul>
+				<span>东莞市蓝菲酒业有限公司</span>
+				<address>地址：东莞市南城区财富广场A座13A04室</address>
+				<p>
+					<span>电话：0769-00000000</span>
+					<span>传真：0769-00000000</span>
+					<span>全国免费招商热线：400-0000-199</span>
+				</p>
+			</div>
+			<p>东莞市Keyqu酒业有限公司    版权所有  Copyright 2010-2018 666.com All Rights Reserved 投资有风险,选择需谨慎 </p>
+		</footer>
+		<div class="top_up"><img src="images/top.png" alt=""></div>
+	</div>
+	<script src="javascripts/jquery-3.3.1.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
+	<script src="javascripts/global.js"></script>
+	<script src="javascripts/newCenter.js"></script>
+</body>
+</html>

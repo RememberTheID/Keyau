@@ -1,0 +1,87 @@
+*{margin:0;padding:0;}
+img{display:block;}
+ul{list-style:none;}
+a{text-decoration:none !important;}
+main{width:100%;background:#000;}
+main>img{width:100%;}
+
+main>div.header{width:100%;overflow:hidden;}
+/*酒庄代代相传*/
+main>div.header>div.hTop{width:75%;height:520px;margin:30px auto;}
+main>div.header>div.hTop>div{float:left;width:40%;margin-top:60px;}
+main>div.header>div.hTop>div>span{display:block;height:55px;font-size:28px;color:#800909;font-weight:800;}
+main>div.header>div.hTop>div>p{color:white;text-indent:2em;line-height:26px;}
+main>div.header>div.hTop>div>div{width:26%;height:25px;background-color:#800909;text-align:center;line-height:25px;margin-top:30px;border-radius:7px;}
+main>div.header>div.hTop>div>div>a{display:block;color:white;}
+main>div.header>div.hTop>img{float:right;}
+/*全国原产地直供*/
+main>div.header>div.hButtom{width:100%;}
+main>div.header>div.hButtom>div{position:relative;}
+main>div.header>div.hButtom>div>img{width:100%;}
+main>div.header>div.hButtom>div>div{width:100%;height:100px;text-align:center;/*background:purple;*/position:absolute;top:0px;}
+main>div.header>div.hButtom>div>div>span{display:block;height:55px;font-size:30px;color:#800909;font-weight:800;}
+main>div.header>div.hButtom>div>div>p{width:60%;color:white;margin:0 auto;}
+
+main>div.main{width:100%;/*height:3000px;background:lightblue;*/overflow:hidden;}
+/*品牌实力*/
+main>div.main>div.mTop{width:60%;/*height:600px;background:blue;*/margin:0 auto;text-align:center;color:white;}
+main>div.main>div.mTop>img{margin:40px auto;}
+main>div.main>div.mTop>p{font-size:18px;font-weight:bold;line-height:40px;}
+main>div.main>div.mTop>ul{width:100%;height:220px;/*background:pink;*/margin:0 auto;}
+main>div.main>div.mTop>ul>li{/*background:orange;*/margin:40px 5%;float:left;}
+main>div.main>div.mTop>ul>li>span{font-size:60px;font-weight:800;}
+main>div.main>div.mTop>ul>li>p{border:2px solid white;height:40px;line-height:40px;font-size:18px;}
+/*十大优势*/
+main>div.main>div.mMain{width:100%;/*height:500px;background:pink;*/}
+main>div.main>div.mMain>img{margin:20px auto;}
+main>div.main>div.mMain>ul{width:780px;height:40px;margin:0 auto;position:relative;line-height:40px;font-weight:bolder;font-size:12px;text-align:center;cursor:pointer;}
+main>div.main>div.mMain>ul>li.item{margin:0 5px;position:relative;display:block;float:left;padding:0 10px;background:url('../images/zdd/zdd_luna.png')no-repeat 0 0/100% 100%;color:#6A2E16;}
+main>div.main>div.mMain>ul>li.item-select{margin:0 5px;width:70px;/*height:30px;*/position:absolute;z-index:999;background:url('../images/zdd/zdd_lunb.png')no-repeat 0 0/100% 100%;color:white;}
+main>div.main>div.mMain>div.lun{width:90%;height:400px;margin:0 auto;position:relative;}
+main>div.main>div.mMain>div.lun>div.bac{/*width:100%;*/height:100%;background:url('../images/zdd/zdd_lunc.png')no-repeat 0 0/100% 100%;z-index:200;}
+main>div.main>div.mMain>div.lun>div.exhi{width:93%;height:330px;/*background:yellow;*/position:absolute;top:50px;left:4%;overflow:hidden;}
+main>div.main>div.mMain>div.lun>div.exhi>ul{width:1000%;/*height:100%;background:lightgreen;*/position:absolute;left:0px;transition:left 0.5s linear;}
+main>div.main>div.mMain>div.lun>div.exhi>ul>li{width:10%;/*height:100%;*/float:left;}
+main>div.main>div.mMain>div.lun>div.exhi>ul>li>img{width:100%;height:100%;}
+/*五大盈利*/
+main>div.main>div.mButtom{width:93%;/*height:500px;background:pink;*/margin:50px auto;text-align:center;color:#fff;}
+main>div.main>div.mButtom>span{font-size:2em;font-weight:800;color:#DA1534;line-height:100px;}
+main>div.main>div.mButtom>p{font-size:18px;font-weight:bold;line-height:40px;}
+main>div.main>div.mButtom>ul{width:88%;height:250px;margin:40px auto;}
+main>div.main>div.mButtom>ul>li{width:20%;height:230px;/*background:gray;*//*margin:0 0%;*/float:left;overflow:hidden;position:relative;}
+main>div.main>div.mButtom>ul>li>div.mbImg{width:100%;height:70%;position:absolute;top:70px;transition:all 400ms ease 0s;}
+main>div.main>div.mButtom>ul>li>div.mbImg>img{width:89px;height:88px;margin:0 auto;}
+main>div.main>div.mButtom>ul>li>div.mbImg>p{font-size:20px;font-weight:bold;line-height:60px;}
+main>div.main>div.mButtom>ul>li>div.mbTran{font-size:14px;width:80%;height:80px;background:#4E0117;display:-webkit-flex;justify-content:center;align-items:center;margin:0 auto;position:absolute;top:230px;left:10%;transition:all 400ms ease 0s;}
+main>div.main>div.mButtom>ul>li:hover>div.mbImg{top:0px;}
+main>div.main>div.mButtom>ul>li:hover>div.mbTran{top:150px;}
+/*合作模式*/
+main>div.main>div.mFooter{width:90%;/*height:500px;background:yellow;*/padding-top:40px;margin:0 auto;text-align:center;color:white;}
+main>div.main>div.mFooter>div{width:48%;/*height:130px;background:purple;*/margin:0 auto;justify-content:center;align-items:center;display:-webkit-flex;}
+main>div.main>div.mFooter>div>img{float:left;margin-right:30px;}
+main>div.main>div.mFooter>div>div{float:right;}
+main>div.main>div.mFooter>div>div>p{font-size:18px;font-weight:bold;line-height:40px;}
+main>div.main>div.mFooter>ul{width:100%;/*height:200px;background:blue;*/margin:40px auto;justify-content:center;align-items:center;display:-webkit-flex;}
+main>div.main>div.mFooter>ul>li{width:18%;/*height:100%;background:red;*/margin:0 10px;float:left;}
+main>div.main>div.mFooter>ul>li>a{display:block;width:100%;height:134px;}
+main>div.main>div.mFooter>ul>li>a>div{width:100%;height:100%;overflow:hidden;position:relative;}
+main>div.main>div.mFooter>ul>li>a>div>div{width:100%;height:100%;position:absolute;transition:all 400ms ease 0s;}
+main>div.main>div.mFooter>ul>li>a>div>div.one{top:0px;}
+main>div.main>div.mFooter>ul>li>a:hover>div>div.one{top:-134px;}
+main>div.main>div.mFooter>ul>li>a>div>div.two{top:134px;}
+main>div.main>div.mFooter>ul>li>a:hover>div>div.two{top:0px;}
+main>div.main>div.mFooter>ul>li>a>div>div>img{width:100%;}
+main>div.main>div.mFooter>ul>li>p{width:90%;height:40px;font-size:14px;padding:10px 5%;}
+/*加盟*/
+main>div.footer{width:100%;height:500px;background:url('../images/zdd/zdd_aback.jpg') 0 0/100% auto no-repeat;}
+main>div.footer>h1{color:#980000;text-align:center;line-height:100px;}
+main>div.footer>form{width:56%;/*background:orange;*/margin:0 auto;}
+main>div.footer>form>div{width:100%;height:250px;/*background:cyan;*/}
+main>div.footer>form>div>div.essence{width:40%;float:left;/*background:lightgreen;*/}
+main>div.footer>form>div>div.essence>input{width:100%;height:33px;margin-bottom:19px;font-size:16px;}
+main>div.footer>form>div>div.message{/*width:100px;*/height:200px;float:right;/*background:pink;*/}
+main>div.footer>form>div>div>p{color:white;font-size:18px;margin:0;}
+main>div.footer>form>div>div>p>span{color:red;}
+main>div.footer>form>input.sub{width:30%;height:50px;background:#6c0000;font-size:20px;color:white;outline:none;border:none;border-radius:10px;   margin:20px auto;justify-content:center;align-items:center;display:-webkit-flex;}
+main>div.footer>form>input.sub:hover{background:#980000;}
+
